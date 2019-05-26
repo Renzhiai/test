@@ -3,3 +3,4 @@
 import os
 
 print('aaa')
+os.chdir('/a')
