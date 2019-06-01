@@ -2,7 +2,7 @@
 # coding = utf-8
 import requests
 import unittest
-from tcs.conf import *
+from .conf import *
 
 class SelectXmind(unittest.TestCase):
     def setUp(self):
