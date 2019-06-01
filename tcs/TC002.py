@@ -12,7 +12,6 @@ class SelectXmind(unittest.TestCase):
         pass
 
     def test_select(self):
-        open('d:/aaa.txt', mode='w', encoding='utf8')
         res = requests.get(self.url)
         statusCode = res.status_code
         self.assertEqual(200, statusCode)

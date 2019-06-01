@@ -5,7 +5,6 @@ import HTMLTestRunner
 if __name__ == '__main__':
     path = './'
     file_path = 'd:/test.html'
-    # 不支持数字开头
     ts = unittest.defaultTestLoader.discover(path, pattern='TC*.py')
     # ts = unittest.defaultTestLoader.discover(path, pattern='select*.py')
     f = open(file_path, mode='wb')
